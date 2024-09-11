@@ -1,9 +1,3 @@
-name = "Tara";
+name = input("what is your name?: )
+print("Hello", name)
 
-
-
-print("Hello "+ name + "!");
-name = "Bob";
-print("Hello "+ name + "!");
-name = "Henry";
-print("Hello "+ name + "!");
