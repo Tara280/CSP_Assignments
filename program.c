@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-    char *myName = "Tara";
-    printf("My name is %s. \n", myName);
-    
+char name[30]; 
+printf("What is your name?: \n");
+scanf("%s", name);
+printf("Hello %s", name);
+return 0;
 }
