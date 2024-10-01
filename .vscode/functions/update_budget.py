@@ -2,10 +2,6 @@
 def inputs(type):
     return float(input(f"Monthly {type}"))
 
-
-def print(type):
-    return char 
-
 income = inputs("income: ")
 rent = inputs("rent:")
 utilities = inputs("utilities:")
