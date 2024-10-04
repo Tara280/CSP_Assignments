@@ -1,12 +1,17 @@
 
-def inputs(type):
+def user_inputs(type):
     return float(input(f"Monthly {type}"))
 
-income = inputs("income: ")
-rent = inputs("rent:")
-utilities = inputs("utilities:")
-groceries = inputs("groceries:")
-transportation = inputs("transportation:")
+def divide(type, income):
+    return type/ income *100
+
+    
+
+income = user_inputs("income: ")
+rent = user_inputs("rent:")
+utilities = user_inputs("utilities:")
+groceries = user_inputs("groceries:")
+transportation = user_inputs("transportation:")
 savings = income*0.2
 expenses = rent + utilities + groceries + transportation
 spend = income-int(expenses)-savings
