@@ -3,8 +3,8 @@
 char sibs[3][20] = {"Maiah", "Alaiah", "Kaylee"};
 int i;
 int main (){
-   while(i<10){
-        printf("%s\n", sibs[i]);
-        i++;
-   }
+    for(i=0;i<3;i++)
+    printf("%s Tabla\n", sibs[i]);
+    return 0;
 }
+
