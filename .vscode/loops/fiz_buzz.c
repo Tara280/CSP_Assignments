@@ -9,9 +9,9 @@ int main(){
     printf("Give me a number\n");
     scanf("%d", &usr);
     printf("Give me a short word\n");
-    scanf("%s", &one);
+    scanf("%s", one);
     printf("Give me a another short word\n");
-    scanf("%s", &two);
+    scanf("%s", two);
     strcat(three, one);
     strcat(three, two);
     //loop that counts to 50
